@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+  .key  { fill: #953800; }
+  .val  { fill: #1a2a3a; }
+  .mute { fill: #8a9aaa; }
+  .add  { fill: #1a7f37; }
+  .del  { fill: #cf222e; }
+  .head { fill: #24292f; }
+  .sep  { fill: #b0bec8; }
+  .art  { fill: #c2cfde; }
+  .dim  { fill: #9aabb8; }
+</style>
+
+<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
+
+<!-- ASCII hourglass -->
+<text x="15" y="30" class="art" font-size="16">
+  <tspan x="20" dy="0"  >  ╔══════════════════╗  </tspan>
+  <tspan x="20" dy="20" >  ║  · · · · · · · ·  ║  </tspan>
+  <tspan x="20" dy="20" >  ║ · · · · · · · · · ║  </tspan>
+  <tspan x="20" dy="20" >  ╚═══╗           ╔═══╝  </tspan>
+  <tspan x="20" dy="20" >      ╚═══╗   ╔═══╝      </tspan>
+  <tspan x="20" dy="20" >          ╚═══╝           </tspan>
+  <tspan x="20" dy="20" >          ╔═══╗           </tspan>
+  <tspan x="20" dy="20" >      ╔═══╝   ╚═══╗      </tspan>
+  <tspan x="20" dy="20" >  ╔═══╝           ╚═══╗  </tspan>
+  <tspan x="20" dy="20" >  ║ ·                 · ║  </tspan>
+  <tspan x="20" dy="20" >  ║  ·               ·  ║  </tspan>
+  <tspan x="20" dy="20" >  ║   · · · · · · ·    ║  </tspan>
+  <tspan x="20" dy="20" >  ║ · · · · · · · · · ║  </tspan>
+  <tspan x="20" dy="20" >  ╚══════════════════╝  </tspan>
+</text>
+
+<!-- Divider -->
+<line x1="310" y1="15" x2="310" y2="515" stroke="#d0d7de" stroke-width="1"/>
+
+<!-- Header -->
+<text x="335" y="30" class="head">oscar@wklnd</text>
+<text x="435" y="30" class="sep"> ─────────────────────────────────────────────────────</text>
+
+<!-- System info -->
+<text x="335" y="58">
+  <tspan class="mute">· </tspan><tspan class="key">OS</tspan><tspan class="mute">: ....................................... </tspan><tspan class="val">Fedora</tspan>
+</text>
+<text x="335" y="80">
+  <tspan class="mute">· </tspan><tspan class="key">Shell</tspan><tspan class="mute">: ................................... </tspan><tspan class="val">Oh My ZSH (oh my)</tspan>
+</text>
+<text x="335" y="102">
+  <tspan class="mute">· </tspan><tspan class="key">IDE</tspan><tspan class="mute">: ...................................... </tspan><tspan class="val">IntelliJ, NVIM, VSCode*</tspan>
+</text>
+<text x="335" y="118">
+  <tspan class="mute">·                                                    </tspan><tspan class="dim">:D</tspan>
+</text>
+<text x="335" y="140">
+  <tspan class="mute">· </tspan><tspan class="key">Coffee</tspan><tspan class="mute">: ................................. </tspan><tspan class="val">yes</tspan>
+</text>
+
+<!-- Languages -->
+<text x="335" y="165" class="sep">─ Languages ─────────────────────────────────────────────────</text>
+<text x="335" y="190">
+  <tspan class="mute">· </tspan><tspan class="key">Languages</tspan><tspan class="mute">.</tspan><tspan class="key">Programming</tspan><tspan class="mute">: ......... </tspan><tspan class="val">JavaScript, Python, Java</tspan>
+</text>
+<text x="335" y="212">
+  <tspan class="mute">· </tspan><tspan class="key">Languages</tspan><tspan class="mute">.</tspan><tspan class="key">Database</tspan><tspan class="mute">: .............. </tspan><tspan class="val">SQL, NoSQL</tspan>
+</text>
+<text x="335" y="234">
+  <tspan class="mute">· </tspan><tspan class="key">Languages</tspan><tspan class="mute">.</tspan><tspan class="key">Spoken</tspan><tspan class="mute">: ................ </tspan><tspan class="val">Swedish, English</tspan>
+</text>
+
+<!-- Contact -->
+<text x="335" y="259" class="sep">─ Contact ───────────────────────────────────────────────────</text>
+<text x="335" y="284">
+  <tspan class="mute">· </tspan><tspan class="key">Email</tspan><tspan class="mute">: ..................................... </tspan><tspan class="val">hej@oscarwiklund.se</tspan>
+</text>
+<text x="335" y="306">
+  <tspan class="mute">· </tspan><tspan class="key">Website</tspan><tspan class="mute">: ................................... </tspan><tspan class="val">oscarwiklund.se</tspan>
+</text>
+
+<!-- GitHub Stats -->
+<text x="335" y="331" class="sep">─ GitHub Stats ──────────────────────────────────────────────</text>
+<text x="335" y="356">
+  <tspan class="mute">· </tspan><tspan class="key">Repos</tspan><tspan class="mute" id="repo_data_dots">: .... </tspan><tspan class="val" id="repo_data">--</tspan><tspan class="mute"> {</tspan><tspan class="key">Contributed</tspan><tspan class="mute">: </tspan><tspan class="val" id="contrib_data">--</tspan><tspan class="mute">} | </tspan><tspan class="key">Stars</tspan><tspan class="mute" id="star_data_dots">: ............ </tspan><tspan class="val" id="star_data">--</tspan>
+</text>
+<text x="335" y="378">
+  <tspan class="mute">· </tspan><tspan class="key">Commits</tspan><tspan class="mute" id="commit_data_dots">: .................... </tspan><tspan class="val" id="commit_data">--</tspan><tspan class="mute"> | </tspan><tspan class="key">Followers</tspan><tspan class="mute" id="follower_data_dots">: ......... </tspan><tspan class="val" id="follower_data">--</tspan>
+</text>
+<text x="335" y="400">
+  <tspan class="mute">· </tspan><tspan class="key">Lines of Code</tspan><tspan class="mute" id="loc_data_dots">: ................ </tspan><tspan class="val" id="loc_data">--</tspan><tspan class="mute"> ( </tspan><tspan class="add" id="loc_add">--</tspan><tspan class="add">++</tspan><tspan class="mute">, </tspan><tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">--</tspan><tspan class="del">--</tspan><tspan class="mute"> )</tspan>
+</text>
+
+<!-- Footer -->
+<text x="335" y="428" class="sep">─────────────────────────────────────────────────────────────</text>
+<text x="335" y="450">
+  <tspan class="dim">  no animals were harmed. one news-archive repo was excluded.</tspan>
+</text>
+</svg>
