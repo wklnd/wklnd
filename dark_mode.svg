@@ -83,10 +83,10 @@
   <tspan class="mute">· </tspan><tspan class="key">Repos</tspan><tspan class="mute" id="repo_data_dots"> .... </tspan><tspan class="val" id="repo_data">16</tspan><tspan class="mute"> {</tspan><tspan class="key">Contributed</tspan><tspan class="mute">: </tspan><tspan class="val" id="contrib_data">17</tspan><tspan class="mute">} | </tspan><tspan class="key">Stars</tspan><tspan class="mute" id="star_data_dots"> ............ </tspan><tspan class="val" id="star_data">10</tspan>
 </text>
 <text x="335" y="378">
-  <tspan class="mute">· </tspan><tspan class="key">Commits</tspan><tspan class="mute" id="commit_data_dots"> ................... </tspan><tspan class="val" id="commit_data">269</tspan><tspan class="mute"> | </tspan><tspan class="key">Followers</tspan><tspan class="mute" id="follower_data_dots"> ......... </tspan><tspan class="val" id="follower_data">7</tspan>
+  <tspan class="mute">· </tspan><tspan class="key">Commits</tspan><tspan class="mute" id="commit_data_dots"> ................... </tspan><tspan class="val" id="commit_data">270</tspan><tspan class="mute"> | </tspan><tspan class="key">Followers</tspan><tspan class="mute" id="follower_data_dots"> ......... </tspan><tspan class="val" id="follower_data">7</tspan>
 </text>
 <text x="335" y="400">
-  <tspan class="mute">· </tspan><tspan class="key">Lines of Code</tspan><tspan class="mute" id="loc_data_dots">. </tspan><tspan class="val" id="loc_data">129,524</tspan><tspan class="mute"> ( </tspan><tspan class="add" id="loc_add">176,094</tspan><tspan class="add">++</tspan><tspan class="mute">, </tspan><tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">46,570</tspan><tspan class="del">--</tspan><tspan class="mute"> )</tspan>
+  <tspan class="mute">· </tspan><tspan class="key">Lines of Code</tspan><tspan class="mute" id="loc_data_dots">. </tspan><tspan class="val" id="loc_data">129,524</tspan><tspan class="mute"> ( </tspan><tspan class="add" id="loc_add">176,099</tspan><tspan class="add">++</tspan><tspan class="mute">, </tspan><tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">46,575</tspan><tspan class="del">--</tspan><tspan class="mute"> )</tspan>
 </text>
 
 <!-- Footer -->
